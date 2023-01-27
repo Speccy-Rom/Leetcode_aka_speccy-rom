@@ -25,6 +25,8 @@
 # -109 <= nums[i] <= 109
 # -109 <= target <= 109
 # Only one valid answer exists.
+from typing import List
+
 
 # class Solution:
 #     def twoSum(self, nums: List[int], target: int) -> List[int]:
@@ -35,15 +37,15 @@
 
 
 class Solution:
-  def twoSum(self, nums: List[int], target: int) -> List[int]:
-    numToIndex = {}
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        numToIndex = {}
 
-    for i, num in enumerate(nums):
-      if target - num in numToIndex:
-        return numToIndex[target - num], i
-      numToIndex[num] = i
+        for i, num in enumerate(nums):
+            if target - num in numToIndex:
+                return [numToIndex[target - num], i]
+            numToIndex[num] = i
 
 
 if __name__ == "__main__":
-  solution = Solution()
-  print(solution.twoSum([2,7,11,15],9))
+    solution = Solution()
+    print(solution.twoSum([3, 2, 4], 6))
