@@ -5,6 +5,11 @@
 <span>💡 <i>Solutions to <a href="https://leetcode.com/problemset/all/">LeetCode</a> in Python, Golang, and SQL. In this repository I solve problems on algorithms and databases. </i></span>
 <br/>
 <br/>
+<img src="https://img.shields.io/badge/Solved-116/2539-blue.svg?style=flat-square" />
+<br/>
+<img src="https://img.shields.io/badge/Easy-51/621-5CB85D.svg?style=flat-square" />
+<img src="https://img.shields.io/badge/Medium-46/1352-F0AE4E.svg?style=flat-square" />
+<img src="https://img.shields.io/badge/Hard-17/566-D95450.svg?style=flat-square" />
 <img src="https://img.shields.io/badge/Solved-78/2539-blue.svg?style=flat-square" />
 <br/>
 <img src="https://img.shields.io/badge/Easy-39/621-5CB85D.svg?style=flat-square" />
