@@ -10,11 +10,6 @@
 <img src="https://img.shields.io/badge/Easy-51/621-5CB85D.svg?style=flat-square" />
 <img src="https://img.shields.io/badge/Medium-46/1352-F0AE4E.svg?style=flat-square" />
 <img src="https://img.shields.io/badge/Hard-17/566-D95450.svg?style=flat-square" />
-<img src="https://img.shields.io/badge/Solved-78/2539-blue.svg?style=flat-square" />
-<br/>
-<img src="https://img.shields.io/badge/Easy-39/621-5CB85D.svg?style=flat-square" />
-<img src="https://img.shields.io/badge/Medium-28/1352-F0AE4E.svg?style=flat-square" />
-<img src="https://img.shields.io/badge/Hard-11/566-D95450.svg?style=flat-square" />
 
 <h2><a href="https://leetcode.com/Speccy-Rom/">Leetcode aka Speccy-Rom</a></h2>
 
