@@ -12,8 +12,8 @@
 <img src="https://img.shields.io/badge/Hard-24/566-D95450.svg?style=flat-square" />
 
 <h2><a href="https://leetcode.com/Speccy-Rom/">Leetcode aka Speccy-Rom</a></h2>
-<img src="https://leetcode.com/static/images/badges/dcc-2023-1.png" />
-<img src="https://leetcode.com/static/images/badges/dcc-2023-2.png" />
-<img src="https://leetcode.com/static/images/badges/dcc-2023-3.png" />
-<img src="https://leetcode.com/static/images/badges/dcc-2023-4.png" />
+<img src="https://leetcode.com/static/images/badges/dcc-2023-1.png" width="139" height="139/>
+<img src="https://leetcode.com/static/images/badges/dcc-2023-2.png" width="139" height="139/>
+<img src="https://leetcode.com/static/images/badges/dcc-2023-3.png" width="139" height="139/>
+<img src="https://leetcode.com/static/images/badges/dcc-2023-4.png" width="139" height="139/>
 </div>
