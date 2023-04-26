@@ -56,10 +56,7 @@ n == capital.length
 
 package main
 
-import (
-	"container/heap"
-	"sort"
-)
+import "container/heap"
 
 type IntHeap []int
 
@@ -72,42 +69,47 @@ func (h *IntHeap) Push(x interface{}) {
 }
 
 func (h *IntHeap) Pop() interface{} {
-	old := *h
-	n := len(old)
-	x := old[n-1]
-	*h = old[0 : n-1]
+	n := len(*h)
+	x := (*h)[n-1]
+	*h = (*h)[:n-1]
 	return x
 }
 
-func findMaximizedCapital(k int, w int, profits []int, capital []int) int {
-	n := len(profits)
-	projects := make([][2]int, n)
-	for i := 0; i < n; i++ {
-		projects[i] = [2]int{capital[i], profits[i]}
+type Solution struct{}
 
-	}
-	sort.Slice(projects, func(i, j int) bool {
-		return projects[i][0] < projects[j][0]
-	})
+func (s *Solution) minimumDeviation(nums []int) int {
+	pq := &IntHeap{}
+	heap.Init(pq)
 
-	// max heap
-	h := &IntHeap{}
-	heap.Init(h)
-	i := 0
-	for k > 0 {
-		for i < n && projects[i][0] <= w {
-			heap.Push(h, projects[i][1])
-			i++
-		}
-		if h.Len() > 0 {
-			w += heap.Pop(h).(int)
+	for _, num := range nums {
+		if num%2 == 0 {
+			heap.Push(pq, -num)
 		} else {
+			heap.Push(pq, -num*2)
+		}
+	}
+
+	ans := int(1e9)
+	mi := -pq.Max()
+
+	for pq.Len() > 0 {
+		num := -heap.Pop(pq).(int)
+		ans = min(ans, num-mi)
+		if num%2 == 1 {
 			break
 		}
-		k--
-
+		mi = min(mi, num/2)
+		heap.Push(pq, -num/2)
 	}
-	return w
+
+	return ans
+}
+
+func min(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
 }
 
 func main() {
