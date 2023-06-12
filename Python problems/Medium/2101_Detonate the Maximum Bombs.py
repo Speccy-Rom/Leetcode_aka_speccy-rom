@@ -43,6 +43,8 @@
 # 1 <= bombs.length <= 100
 # bombs[i].length == 3
 # 1 <= xi, yi, ri <= 105
+from collections import defaultdict, deque
+from typing import List
 
 
 class Solution:
