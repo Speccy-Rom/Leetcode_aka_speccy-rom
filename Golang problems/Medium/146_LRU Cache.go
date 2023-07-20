@@ -120,5 +120,4 @@ func main() {
 	lRUCache.Put(4, 4) // LRU key was 1, evicts key 1, cache is {4=4, 3=3}
 	lRUCache.Get(1)    // return -1 (not found)
 	lRUCache.Get(3)    // return 3
-	lRUCache.Get(4)    // return 4
 }
