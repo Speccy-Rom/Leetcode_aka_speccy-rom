@@ -20,6 +20,7 @@
 #
 # 1 <= k <= nums.length <= 105
 # -104 <= nums[i] <= 104
+from typing import List
 
 
 class Solution:
