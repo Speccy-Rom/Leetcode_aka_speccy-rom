@@ -40,8 +40,6 @@ class Solution:
         return [v[j : j + i] for i, v in g.items() for j in range(0, len(v), i)]
 
 
-
-
 if __name__ == '__main__':
     s = Solution()
     print(s.groupThePeople([3, 3, 3, 3, 3, 1, 3]))
