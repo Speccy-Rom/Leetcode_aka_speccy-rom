@@ -66,10 +66,10 @@ class Solution:
 
         current_sum = current_sum * 10 + node.val
 
-        if not node.left and not node.right:
+        if node.left or node.right:
+            return self.dfs(node.left, current_sum) + self.dfs(node.right, current_sum)
+        else:
             return current_sum
-
-        return self.dfs(node.left, current_sum) + self.dfs(node.right, current_sum)
 
 
 # Мы создали класс TreeNode для представления узла дерева, а также класс Solution для решения задачи. Функция
