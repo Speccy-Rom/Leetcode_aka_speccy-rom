@@ -21,24 +21,28 @@ package main
 //s consist of only digits and English letters.
 
 func longestPalindrome(s string) string {
-	var result string
-	for i := 0; i < len(s); i++ {
-		for j := i; j < len(s); j++ {
-			if isPalindrome(s[i:j+1]) && len(s[i:j+1]) > len(result) {
-				result = s[i : j+1]
+	n := len(s)
+	f := make([][]bool, n)
+	for i := range f {
+		f[i] = make([]bool, n)
+		for j := range f[i] {
+			f[i][j] = true
+		}
+	}
+	k, mx := 0, 1
+	for i := n - 2; i >= 0; i-- {
+		for j := i + 1; j < n; j++ {
+			f[i][j] = false
+			if s[i] == s[j] {
+				f[i][j] = f[i+1][j-1]
+				if f[i][j] && mx < j-i+1 {
+					mx = j - i + 1
+					k = i
+				}
 			}
 		}
 	}
-	return result
-}
-
-func isPalindrome(s string) bool {
-	for i := 0; i < len(s)/2; i++ {
-		if s[i] != s[len(s)-1-i] {
-			return false
-		}
-	}
-	return true
+	return s[k : k+mx]
 }
 
 func main() {
