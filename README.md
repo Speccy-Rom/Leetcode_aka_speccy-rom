@@ -12,6 +12,7 @@
 <img src="https://img.shields.io/badge/Hard-75/629-D95450.svg?style=flat-square" />
 
 <h2><a href="https://leetcode.com/Speccy-Rom/">Leetcode aka Speccy-Rom</a></h2>
+<h3>2023 Year</h3>  
 <img src="https://leetcode.com/static/images/badges/dcc-2023-1.png" width="139" height="139" />
 <img src="https://leetcode.com/static/images/badges/dcc-2023-2.png" width="139" height="139" />
 <img src="https://leetcode.com/static/images/badges/dcc-2023-3.png" width="139" height="139" />
@@ -23,5 +24,10 @@
 <img src="https://leetcode.com/static/images/badges/dcc-2023-9.png" width="139" height="139" />
 <img src="https://leetcode.com/static/images/badges/dcc-2023-10.png" width="139" height="139" />
 <img src="https://leetcode.com/static/images/badges/dcc-2023-11.png" width="139" height="139" />
-
+<img src="https://leetcode.com/static/images/badges/dcc-2023-12.png" width="139" height="139" />
+<img src="https://assets.leetcode.com/static_assets/marketing/lg2023.png" width="139" height="139" />
+<img src="https://assets.leetcode.com/static_assets/marketing/lg100.png" width="139" height="139" />
+<img src="https://assets.leetcode.com/static_assets/marketing/lg50.png" width="139" height="139" />
+<h3>2024 Year</h3>  
+<img src="https://leetcode.com/static/images/badges/dcc-2024-1.png" width="139" height="139" />
 </div>
