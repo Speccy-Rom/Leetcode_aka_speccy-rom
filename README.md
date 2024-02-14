@@ -30,4 +30,5 @@
 <img src="https://assets.leetcode.com/static_assets/marketing/lg50.png" width="139" height="139" />
 <h3>2024 Year</h3>  
 <img src="https://leetcode.com/static/images/badges/dcc-2024-1.png" width="139" height="139" />
+<img src="https://leetcode.com/static/images/badges/dcc-2024-2.png" width="139" height="139" />
 </div>
