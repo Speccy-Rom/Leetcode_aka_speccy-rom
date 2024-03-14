@@ -5,11 +5,11 @@
 <span>💡 <i>Solutions to <a href="https://leetcode.com/problemset/all/">LeetCode</a> in Python, Golang, and SQL. In this repository I solve problems on algorithms and databases. </i></span>
 <br/>
 <br/>
-<img src="https://img.shields.io/badge/Solved-369/2838-blue.svg?style=flat-square" />
+<img src="https://img.shields.io/badge/Solved-483/3013-blue.svg?style=flat-square" />
 <br/>
-<img src="https://img.shields.io/badge/Easy-95/718-5CB85D.svg?style=flat-square" />
-<img src="https://img.shields.io/badge/Medium-199/1516-F0AE4E.svg?style=flat-square" />
-<img src="https://img.shields.io/badge/Hard-75/629-D95450.svg?style=flat-square" />
+<img src="https://img.shields.io/badge/Easy-140/780-5CB85D.svg?style=flat-square" />
+<img src="https://img.shields.io/badge/Medium-255/1615-F0AE4E.svg?style=flat-square" />
+<img src="https://img.shields.io/badge/Hard-88/683-D95450.svg?style=flat-square" />
 
 <h2><a href="https://leetcode.com/Speccy-Rom/">Leetcode aka Speccy-Rom</a></h2>
 <h3>2023 Year</h3>  
