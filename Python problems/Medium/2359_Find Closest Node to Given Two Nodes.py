@@ -33,7 +33,6 @@
 # -1 <= edges[i] < n
 # edges[i] != i
 # 0 <= node1, node2 < n
-from collections import defaultdict, deque
 from typing import List
 
 
