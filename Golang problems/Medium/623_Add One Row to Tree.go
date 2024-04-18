@@ -27,6 +27,7 @@ The depth of the tree is in the range [1, 104].
 */
 
 package main
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -66,13 +67,9 @@ func addOneRow(root *TreeNode, val int, depth int) *TreeNode {
 func main() {
 	// Test cases
 	res := addOneRow(&TreeNode{4, &TreeNode{2, nil, &TreeNode{3, nil, nil}}, nil}, 1, 3)
-	print(res.Val) // 4
-	print(res.Left.Val) // 2
-	print(res.Left.Left.Val) // 1
-	print(res.Left.Right.Val) // 1
+	print(res.Val)                 // 4
+	print(res.Left.Val)            // 2
+	print(res.Left.Left.Val)       // 1
+	print(res.Left.Right.Val)      // 1
 	print(res.Left.Right.Left.Val) // 3
-}
-
-
-
 }
