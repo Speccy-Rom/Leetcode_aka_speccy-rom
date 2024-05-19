@@ -57,4 +57,5 @@ func main() {
 	fmt.Println(res)
 	res = matrixScore([][]int{{0}})
 	fmt.Println(res)
+	Y
 }
