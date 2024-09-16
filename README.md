@@ -5,11 +5,11 @@
 <span>💡 <i>Solutions to <a href="https://leetcode.com/problemset/all/">LeetCode</a> in Python, Golang, and SQL. In this repository I solve problems on algorithms and databases. </i></span>
 <br/>
 <br/>
-<img src="https://img.shields.io/badge/Solved-483/3013-blue.svg?style=flat-square" />
+<img src="https://img.shields.io/badge/Solved-655/3292-blue.svg?style=flat-square" />
 <br/>
-<img src="https://img.shields.io/badge/Easy-140/780-5CB85D.svg?style=flat-square" />
-<img src="https://img.shields.io/badge/Medium-255/1615-F0AE4E.svg?style=flat-square" />
-<img src="https://img.shields.io/badge/Hard-88/683-D95450.svg?style=flat-square" />
+<img src="https://img.shields.io/badge/Easy-188/826-5CB85D.svg?style=flat-square" />
+<img src="https://img.shields.io/badge/Medium-356/1721-F0AE4E.svg?style=flat-square" />
+<img src="https://img.shields.io/badge/Hard-111/745-D95450.svg?style=flat-square" />
 
 <h2><a href="https://leetcode.com/Speccy-Rom/">Leetcode aka Speccy-Rom</a></h2>
 <h3>2023 Year</h3>  
@@ -32,5 +32,14 @@
 <img src="https://leetcode.com/static/images/badges/dcc-2024-1.png" width="139" height="139" />
 <img src="https://leetcode.com/static/images/badges/dcc-2024-2.png" width="139" height="139" />
 <img src="https://leetcode.com/static/images/badges/dcc-2024-3.png" width="139" height="139" />
+<img src="https://leetcode.com/static/images/badges/dcc-2024-4.png" width="139" height="139" />
+<img src="https://leetcode.com/static/images/badges/dcc-2024-5.png" width="139" height="139" />
+<img src="https://leetcode.com/static/images/badges/dcc-2024-6.png" width="139" height="139" />
+<img src="https://leetcode.com/static/images/badges/dcc-2024-7.png" width="139" height="139" />
+<img src="https://leetcode.com/static/images/badges/dcc-2024-8.png" width="139" height="139" />
+<img src="https://leetcode.com/static/images/badges/dcc-2024-9.png" width="139" height="139" />
 <img src="https://assets.leetcode.com/static_assets/marketing/2024-50-lg.png" width="139" height="139" />
+<img src="https://assets.leetcode.com/static_assets/marketing/2024-100-lg.png" width="139" height="139" />
+<img src="https://assets.leetcode.com/static_assets/marketing/2024-200-lg.png" width="139" height="139" />
+
 </div>
