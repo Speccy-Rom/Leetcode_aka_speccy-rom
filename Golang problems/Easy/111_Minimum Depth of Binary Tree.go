@@ -26,9 +26,12 @@ The number of nodes in the tree is in the range [0, 105].
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
-// Definition for a binary tree node.
+// TreeNode Definition for a binary tree node.
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
@@ -45,17 +48,10 @@ func minDepth(root *TreeNode) int {
 	if root.Right == nil {
 		return 1 + minDepth(root.Left)
 	}
-	return 1 + min(minDepth(root.Left), minDepth(root.Right))
-}
-
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
+	return int(1 + math.Min(float64(minDepth(root.Left)), float64(minDepth(root.Right))))
 }
 
 func main() {
-	fmt.Println(minDepth(3, []int{9, 20, null, null, 15, 7}))
+	fmt.Println(minDepth(&TreeNode{Val: 3, Left: &TreeNode{Val: 9}, Right: &TreeNode{Val: 20, Left: &TreeNode{Val: 15}, Right: &TreeNode{Val: 7}}})) // Expected: 2
 
 }

@@ -52,8 +52,8 @@ func countPairs(root *TreeNode, distance int) int {
 	ans := countPairs(root.Left, distance) + countPairs(root.Right, distance)
 	cnt1 := make([]int, distance)
 	cnt2 := make([]int, distance)
-	dfs(root.Left, cnt1, 1)
-	dfs(root.Right, cnt2, 1)
+	//dfs(root.Left, cnt1, 1)
+	//dfs(root.Right, cnt2, 1)
 	for i, v1 := range cnt1 {
 		for j, v2 := range cnt2 {
 			if i+j <= distance {
@@ -64,17 +64,17 @@ func countPairs(root *TreeNode, distance int) int {
 	return ans
 }
 
-func dfs(root *TreeNode, cnt []int, i int) {
-	if root == nil || i >= len(cnt) {
-		return
-	}
-	if root.Left == nil && root.Right == nil {
-		cnt[i]++
-		return
-	}
-	dfs(root.Left, cnt, i+1)
-	dfs(root.Right, cnt, i+1)
-}
+//func dfs(root *TreeNode, cnt []int, i int) {
+//	if root == nil || i >= len(cnt) {
+//		return
+//	}
+//	if root.Left == nil && root.Right == nil {
+//		cnt[i]++
+//		return
+//	}
+//	dfs(root.Left, cnt, i+1)
+//	dfs(root.Right, cnt, i+1)
+//}
 
 // Test cases
 func main() {
