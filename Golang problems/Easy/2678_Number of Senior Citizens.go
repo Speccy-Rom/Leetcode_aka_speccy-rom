@@ -41,7 +41,7 @@ func countSeniors(details []string) (ans int) {
 			ans++
 		}
 	}
-	return
+	returngigi
 }
 
 func main() {
