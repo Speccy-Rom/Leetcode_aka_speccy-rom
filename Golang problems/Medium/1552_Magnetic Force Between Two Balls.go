@@ -35,7 +35,7 @@ package main
 
 import "sort"
 
-func maxDistance1(position []int, m int) int {
+func maxDistance(position []int, m int) int {
 	sort.Ints(position)
 	left, right := 1, position[len(position)-1]
 	check := func(f int) bool {
@@ -63,6 +63,6 @@ func maxDistance1(position []int, m int) int {
 
 func main() {
 	// Test cases
-	println(maxDistance1([]int{1, 2, 3, 4, 7}, 3))             // 3
-	println(maxDistance1([]int{5, 4, 3, 2, 1, 1000000000}, 2)) // 999999999
+	println(maxDistance([]int{1, 2, 3, 4, 7}, 3))             // 3
+	println(maxDistance([]int{5, 4, 3, 2, 1, 1000000000}, 2)) // 999999999
 }
